@@ -1,0 +1,16 @@
+1316106988
+Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
+ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+HtmlSelectorsHelpers	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	module HtmlSelectorsHelpers
+NavigationHelpers	C:/Sites/rails_projects/sample_app/features/support/paths.rb	module NavigationHelpers
+PagesController	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	C:/Sites/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
+SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
+WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	module WithinHelpers
+about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
+contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
+path_to	C:/Sites/rails_projects/sample_app/features/support/paths.rb	  def path_to(page_name)
+selector_for	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	  def selector_for(locator)
+with_scope	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	  def with_scope(locator)

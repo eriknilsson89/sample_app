@@ -1,0 +1,2 @@
+require 'autotest/growl'
+Autotest::Growl::sticky_failure_notifications = true
