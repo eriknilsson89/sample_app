@@ -1,4 +1,4 @@
-1316343611
+1316366107
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -10,6 +10,7 @@ SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module Sample
 WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	module WithinHelpers
 about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+help	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 path_to	C:/Sites/rails_projects/sample_app/features/support/paths.rb	  def path_to(page_name)
 selector_for	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	  def selector_for(locator)
