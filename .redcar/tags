@@ -1,4 +1,4 @@
-1316604476
+1316607337
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -7,12 +7,15 @@ NavigationHelpers	C:/Sites/rails_projects/sample_app/features/support/paths.rb	m
 PagesController	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/Sites/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
+UsersController	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	module WithinHelpers
 about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 help	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
+new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 path_to	C:/Sites/rails_projects/sample_app/features/support/paths.rb	  def path_to(page_name)
 selector_for	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	  def selector_for(locator)
 title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
