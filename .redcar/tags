@@ -1,16 +1,19 @@
-1316607337
+1316614558
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110921131256_create_users.rb	class CreateUsers 
 HtmlSelectorsHelpers	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	module HtmlSelectorsHelpers
 NavigationHelpers	C:/Sites/rails_projects/sample_app/features/support/paths.rb	module NavigationHelpers
 PagesController	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/Sites/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/Sites/rails_projects/sample_app/config/application.rb	module SampleApp
+User	C:/Sites/rails_projects/sample_app/app/models/user.rb	class User 
 UsersController	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	module WithinHelpers
 about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
+change	C:/Sites/rails_projects/sample_app/db/migrate/20110921131256_create_users.rb	  def change
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 help	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home

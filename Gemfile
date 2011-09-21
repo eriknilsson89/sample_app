@@ -28,6 +28,7 @@ group :development, :test do
   gem 'autotest'
   gem 'webrat'
   gem 'spork', '0.9.0.rc8'
+  gem 'annotate', '2.4.0'
 end
 
 # Use unicorn as the web server
