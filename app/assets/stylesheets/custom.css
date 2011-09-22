@@ -21,7 +21,6 @@ section {
   padding: 20px;
   background: #fff;
   width: 675px;
-  margin: auto;
 
 }
 
@@ -105,8 +104,40 @@ footer {
   width: 710px;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
 }
 
 footer nav {
   float: none;
+}
+#content
+{
+  width: 675px;
+  min-height: 500px;
+}
+#profileinfo
+{
+  width: 425px;
+  float: left;
+  
+}
+#profilesidebar
+{
+  float: right;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #ffc;
+}
+#profilesidebar p
+{
+  margin: 10px;
+}
+.gravatar
+{
+  border: 1px solid #999;
+  margin-bottom: -15px;
+}
+.bold
+{
+  font-weight: bold;
 }
