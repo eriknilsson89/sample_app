@@ -1,4 +1,5 @@
-1316614558
+1316688534
+AddEmailUniquenessIndex	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	C:/Sites/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -15,6 +16,7 @@ WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_s
 about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110921131256_create_users.rb	  def change
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+down	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def down
 help	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 logo	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def logo
@@ -22,4 +24,5 @@ new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def
 path_to	C:/Sites/rails_projects/sample_app/features/support/paths.rb	  def path_to(page_name)
 selector_for	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	  def selector_for(locator)
 title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
+up	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def up
 with_scope	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	  def with_scope(locator)
