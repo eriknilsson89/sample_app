@@ -1,4 +1,4 @@
-1316712031
+1316713974
 AddEmailUniquenessIndex	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	class AddSaltToUsers 
@@ -24,6 +24,7 @@ contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	 
 down	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def down
 encrypt	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def encrypt(string)
 encrypt_password	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def encrypt_password
+gravatar_for	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { :size => 50 })
 has_password?	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def has_password?(submitted_password)
 help	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
