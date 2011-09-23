@@ -31,6 +31,10 @@ group :development, :test do
   gem 'annotate', '2.4.0'
 end
 
+group :production do
+  gem 'pg', '0.9.0'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
