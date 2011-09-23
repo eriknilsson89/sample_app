@@ -32,7 +32,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '0.9.0'
+  gem 'pg'
 end
 
 # Use unicorn as the web server
