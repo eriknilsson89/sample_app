@@ -1,4 +1,4 @@
-1316791429
+1316948820
 AddEmailUniquenessIndex	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	class AddSaltToUsers 
