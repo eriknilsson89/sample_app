@@ -1,4 +1,4 @@
-1316948820
+1316967855
 AddEmailUniquenessIndex	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	class AddSaltToUsers 
@@ -21,6 +21,7 @@ change	C:/Sites/rails_projects/sample_app/db/migrate/20110921131256_create_users
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	  def change
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	  def change
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
+create	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
 down	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def down
 encrypt	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def encrypt(string)
 encrypt_password	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def encrypt_password
