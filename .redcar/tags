@@ -1,4 +1,4 @@
-1317045573
+1317067127
 AddEmailUniquenessIndex	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	class AddSaltToUsers 
@@ -19,12 +19,15 @@ UsersHelper	C:/Sites/rails_projects/sample_app/app/helpers/users_helper.rb	modul
 WithinHelpers	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	module WithinHelpers
 about	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 authenticate	C:/Sites/rails_projects/sample_app/app/models/user.rb	    def authenticate(email, submitted_password)
+authenticate_with_salt	C:/Sites/rails_projects/sample_app/app/models/user.rb	    def authenticate_with_salt(id, cookie_salt)
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110921131256_create_users.rb	  def change
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110922131507_add_password_to_users.rb	  def change
 change	C:/Sites/rails_projects/sample_app/db/migrate/20110922153657_add_salt_to_users.rb	  def change
 contact	C:/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 create	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
 create	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
+current_user	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 destroy	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
 down	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def down
 encrypt	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def encrypt(string)
@@ -39,9 +42,15 @@ new	C:/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb	  
 new	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 password	C:/Sites/rails_projects/sample_app/app/models/user.rb	  attr_accessor   :password
 path_to	C:/Sites/rails_projects/sample_app/features/support/paths.rb	  def path_to(page_name)
+remember_token	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def remember_token
 secure_hash	C:/Sites/rails_projects/sample_app/app/models/user.rb	  def secure_hash(string)
 selector_for	C:/Sites/rails_projects/sample_app/features/support/selectors.rb	  def selector_for(locator)
 show	C:/Sites/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_out
+signed_in?	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+test_sign_in	C:/Sites/rails_projects/sample_app/spec/spec_helper.rb	    def test_sign_in(user)
 title	C:/Sites/rails_projects/sample_app/app/helpers/application_helper.rb	  def title
 up	C:/Sites/rails_projects/sample_app/db/migrate/20110922103646_add_email_uniqueness_index.rb	  def up
+user_from_remember_token	C:/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def user_from_remember_token
 with_scope	C:/Sites/rails_projects/sample_app/features/step_definitions/web_steps.rb	  def with_scope(locator)
